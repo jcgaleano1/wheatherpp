@@ -1,0 +1,62 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ciudad{
+    margin: 30px;
+    width: 500px;
+  background: rgb(2, 0, 36);
+    background: linear-gradient(345deg, rgba(2, 0, 36, 1) 0%, rgba(0, 211, 255, 1) 65%);
+    border: 1px solid black;
+    box-shadow: 2px 4px 10px black;
+    padding: 45px;
+    border-radius: 12px;
+    transition: .5s;
+}
+
+.titulo{
+    margin-bottom: 15px;
+  color: white;
+  font-size: 34px;
+  font-weight: bolder;
+  padding: 10px;
+  border-bottom: 1px solid white;
+    
+}
+
+
+
+@keyframes Desvanecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+
+.texto{
+    color: white;
+  font-size: 22px;
+}
+
+.texto span{
+    color: white;
+    font-weight: bolder;
+}
+.content-message{
+  width: 95vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.message{
+    font-size: 37px;
+    text-transform: uppercase;
+}
